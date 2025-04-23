@@ -1,0 +1,77 @@
+name: prodex
+description: "Product Listing app for logiology."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get_storage: ^2.1.1
+  sembast: ^3.8.2
+  dio: ^5.8.0+1
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  xxtea: ^2.1.0
+  auto_size_text: ^3.0.0
+  get: ^4.7.2
+  flutter_rating_bar: ^4.0.1
+  loading_animation_widget: ^1.3.0
+  image_picker: ^1.1.2
+  flutter_launcher_icons: ^0.14.3
+  flutter_typeahead: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/image/launchers/logo_s.png"
+  image_path_android: "assets/image/launchers/logo_s.png"
+  adaptive_icon_background: "#ffffff"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/launchers/
+    - assets/image/widget_images/
+    - assets/image/application/profile/
+ 
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+    - family: OswaldRegular
+      fonts:
+        - asset: assets/fonts/Oswald-Regular.ttf
+  
+
